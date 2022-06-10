@@ -8,13 +8,6 @@ const result = document.querySelector('.result');
 
 let characters = ['✋','✊','✌'];
 let resultArr = [];
-console.log(rock.innerHTML);
-
-// const handleClick = element => {
-//     let random = Math.floor(Math.random() * 3);
-//     resultArr = [{you: element.innerHTML, computer: characters[random]}, ...resultArr]
-//     console.log(resultArr);
-// }
 
 rock.addEventListener('click', handle = () => {
     let random = Math.floor(Math.random() * 3);
